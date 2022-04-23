@@ -1,0 +1,52 @@
+body{
+    background: #EAE8FE;
+}
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+.clear-fix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.head-logo {
+    width: 436px;
+    margin: 0 auto;
+    text-align: center;
+}
+.head-logo .img-logo {
+    width: 386px;
+    height: 180px;
+}
+
+.cont-bending_machine {
+    width: 746px;
+    border: 1px solid black;
+    margin: 68px auto 0;
+}
+
+.cont-display_beverage {
+    float: left;
+    width: 360px;
+    background: #FFFFFF;
+}
+
+
+
+/* .cont-my_money {
+    float: right;
+    width: 360px;
+    background: #FFFFFF;
+}
+
+.cont-get_beverage {
+    float: right;
+    width: 360px;
+    background: #FFFFFF;
+} */
